@@ -6,7 +6,7 @@
 ---
 
 ## 🌌 Project Overview
-This repository provides the empirical evidence for a 120° nodal resonance within the galactic vacuum fabric. Moving beyond the initial Santarém Sector (V1.0), this **Version 3.0** introduces a **Global Manifold Validation** across three distinct galactic regions.
+This repository provides the empirical evidence for a 120° nodal resonance within the galactic vacuum fabric. Moving beyond the initial Santarém Sector (V1.0), this **Version 3.1** introduces a **Global Manifold Validation** across three distinct galactic regions.
 
 ### 🔬 Methodology & Nodal Sampling
 Contrary to stochastic stellar surveys, this research focuses exclusively on **High-Confidence Nodal Vertices**. 
@@ -16,7 +16,7 @@ Contrary to stochastic stellar surveys, this research focuses exclusively on **H
 
 ---
 
-## 🚀 V3.0 Key Findings
+## 🚀 V3.1 Key Findings
 * **Multi-Sector Evidence:** Resonance confirmed in Galactic Anticenter, Sirius Local Sector, and Polaris North.
 * **Statistical Rigor:** 1,000-iteration Monte Carlo permutation test (Shuffling nodal coordinates).
 * **Significance:** **P-Value < 0.001**. The geometric alignment persists even under rigorous random controls, confirming the non-random nature of the selected vertices.
