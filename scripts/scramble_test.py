@@ -38,3 +38,4 @@ for _ in range(1000):
 p_value = hits / 1000
 print(f"Resonância Observada: {obs_resonance}")
 print(f"P-Value: {p_value}") # Se P < 0.05, o crítico perde o argumento.
+ 
