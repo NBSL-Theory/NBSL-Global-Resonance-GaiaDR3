@@ -1,7 +1,7 @@
 # NBSL-Global-Resonance-GaiaDR3
-> **Official V3.0 Global Analysis: Multi-Sector Nodal Validation**
+> **Official V3.1 Global Analysis: Large-Scale Nodal Validation**
 
-**Version:** 3.0 (Global) | **Status:** `Active / Peer-Review` | **DOI:** [10.5281/zenodo.19226487](https://doi.org/10.5281/zenodo.19226487)
+**Version:** 3.1 (Pleiades Update) | **Status:** `Active / Peer-Review` | **DOI:** [10.5281/zenodo.19226487](https://doi.org/10.5281/zenodo.19226487)
 
 ---
 
