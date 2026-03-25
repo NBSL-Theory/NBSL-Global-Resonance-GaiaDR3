@@ -18,7 +18,7 @@ def calculate_triplet_angles(coords):
     return np.array(angles)
 
 # Carregar dados
-data = pd.read_csv('data/anticenter_sector_gaia.csv')
+data = pd.read_csv('data/nbsl_multisector_gaia.csv')
 real_coords = data[['x_pc', 'y_pc', 'z_pc']].values
 
 # 1. Análise Real
