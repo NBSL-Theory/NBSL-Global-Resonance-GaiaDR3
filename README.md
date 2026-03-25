@@ -1,9 +1,13 @@
-# NBSL-Theory: Non-Baryonic Structural Lattice (Global Analysis)
-**Version:** 3.0 (Multi-Sector & Monte Carlo Validation)  
-**Status:** `Active / Peer-Review` | **DOI:** [10.5281/zenodo.19221396](https://doi.org/10.5281/zenodo.19221396)
+# NBSL-Global-Resonance-GaiaDR3
+> **Official V3.0 Global Analysis: Multi-Sector Nodal Validation**
 
-## Project Overview
-This repository hosts the evidence for a 120° nodal resonance in the galactic vacuum fabric. In Version 3.0, we transition from local observations to a Global Manifold Validation.
+**Version:** 3.0 (Global) | **Status:** `Active / Peer-Review` | **DOI:** [10.5281/zenodo.19221396](https://doi.org/10.5281/zenodo.19221396)
+
+---
+
+## 🌌 Project Overview
+This repository provides the empirical evidence for a 120° nodal resonance within the galactic vacuum fabric. Moving beyond the initial Santarém Sector (V1.0), this **Version 3.0** introduces a **Global Manifold Validation** across three distinct galactic regions.
+
 
 ## V3.0 Key Findings
 * Multi-Sector Evidence: Resonance confirmed in Galactic Anticenter, Sirius Local Sector, and Polaris North.
