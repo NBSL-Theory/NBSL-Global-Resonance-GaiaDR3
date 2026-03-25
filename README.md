@@ -1,35 +1,29 @@
-# NBSL-Theory: Non-Baryonic Structural Lattice
+# NBSL-Theory: Non-Baryonic Structural Lattice (Global Analysis)
 **Version:** 3.0 (Multi-Sector & Monte Carlo Validation)  
-**Status:** `Active / Open for Peer Review`  
-**DOI:** [10.5281/zenodo.19221396](https://doi.org/10.5281/zenodo.19221396)
+**Status:** `Active / Peer-Review` | **DOI:** [10.5281/zenodo.19221396](https://doi.org/10.5281/zenodo.19221396)
 
-## 🌌 Overview
-This repository contains the mathematical framework, multi-sector datasets, and Monte Carlo validation for the **Non-Baryonic Structural Lattice (NBSL)**. We demonstrate that stellar distribution in Gaia DR3 is anchored to a 120° nodal resonance manifold with a **P-Value < 0.001**.
+## Project Overview
+This repository hosts the evidence for a 120° nodal resonance in the galactic vacuum fabric. In Version 3.0, we transition from local observations to a Global Manifold Validation.
 
-## 📊 Statistical Validation (V3.0)
-To neutralize the Look-Elsewhere Effect (LEE) and confirm the structural nature of the lattice, we implemented:
-* **Multi-Sector Replication:** Verification across 3 independent galactic sectors (Anticenter, Sirius, Polaris).
-* **Monte Carlo Permutation (N=1000):** Randomized control tests to break spatial phase.
-* **Result:** The 120.0° ± 0.1° resonance persists with a statistical significance of P < 0.001.
+## V3.0 Key Findings
+* Multi-Sector Evidence: Resonance confirmed in Galactic Anticenter, Sirius Local Sector, and Polaris North.
+* Statistical Rigor: 1,000-iteration Monte Carlo permutation test.
+* Significance: P-Value < 0.001 (Zero flukes detected in random controls).
 
-## 📁 Repository Structure
-* **/scripts**: `scramble_test.py` — O(N³) Angular Resonance & Monte Carlo Analysis.
-* **/data**: `anticenter_sector_gaia.csv` — Multi-sector coordinate subsets (Active).
-* **/docs**: Technical preprints and Nodal Lagrangian Dynamics.
+## Repository Map
+* /data: anticenter_sector_gaia.csv (Contains all 3 sectors for replication).
+* /scripts: scramble_test.py (Full Monte Carlo engine).
+* requirements.txt: Environment setup.
 
-## 🛠️ Usage
-1. Clone the repository.
-2. Run `python scripts/scramble_test.py`.
-3. The script will execute 1,000 permutations and output the real vs. random resonance frequency.
+## Execution
+pip install -r requirements.txt
+python scripts/scramble_test.py
 
-## ⚖️ Theoretical Physics: Nodal Lagrangian & Vacuum Coupling
-We propose a Lagrangian density where baryonic matter ($T_{\mu\nu}$) couples to the geometric potential of the vacuum ($\Phi_{Lattice}$):
-
-$$\mathcal{L}_{Total} = \mathcal{L}_{GR} - \alpha \int \Phi_{Lattice}(x) T^{\mu}_{\mu}(x) \sqrt{-g} \, d^4x$$
+## Physical Causal Model (Lagrangian)
+L = L_GR - alpha * integral[ Phi_Lattice(x) * T(x) * sqrt(-g) d4x ]
 
 **Physical Mechanism:**
-* **Nodal Wells:** The vacuum is a quantized manifold with potential minima at 120° intersections.
-* **Energy Minimization:** Matter is statistically anchored to these nodes to achieve the lowest energy state within the vacuum fabric.
+Matter is anchored to vacuum nodes via geometric potential minimization. The 120° resonance is a manifestation of matter seeking the path of least resistance within the rigid geometric fabric of the vacuum.
 
 ---
-Independent Research | Santarém Sector Observation | Open Science
+Independent Research | Global Gaia DR3 Analysis | Open Science
