@@ -11,7 +11,7 @@ This repository hosts the evidence for a 120° nodal resonance in the galactic v
 * Significance: P-Value < 0.001 (Zero flukes detected in random controls).
 
 ## Repository Map
-* /data: anticenter_sector_gaia.csv (Contains all 3 sectors for replication).
+* /data: nbsl_multisector_gaia.csv (Integrated sectors: Anticenter, Sirius, Polaris).
 * /scripts: scramble_test.py (Full Monte Carlo engine).
 * requirements.txt: Environment setup.
 
