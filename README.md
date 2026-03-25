@@ -1,35 +1,25 @@
-# NBSL-Theory: Non-Baryonic Structural Lattice Analysis
-## Detection of 120.0° Nodal Resonance in Gaia DR3 (Santarém Sector)
+# NBSL-Theory: Non-Baryonic Structural Lattice
+**Version:** 2.0 (Universal Validation)  
+**Status:** `Active / Open for Peer Review`  
+**DOI:** [10.5281/zenodo.19220693](https://doi.org/10.5281/zenodo.19220693)
 
-### 📊 Executive Summary
-This project documents the observational evidence of a recurring 120.0° ± 0.1° angular resonance in stellar distributions. Unlike random clusters, the **NBSL framework** identifies a rigid geometric manifold acting as a waveguide for matter.
+## 🌌 Overview
+This repository contains the mathematical framework and datasets for the **Non-Baryonic Structural Lattice (NBSL)**. We propose that stellar distribution in Gaia DR3 is anchored to a 120° nodal resonance manifold.
 
-### 🔬 Key Scientific Metrics
-* **Primary Resonance:** 120.0° (Sub-degree precision).
-* **Clustering Coefficient (C):** ≈ 0.44 (Stochastic baseline: 0.002).
-* **Nodal Degree (k):** > 4 (High-density connectivity).
+## 📁 Repository Structure
+* **/scripts**: Contains `scramble_test.py` — O(N³) Angular Resonance Analysis and Positional Scrambling.
+* **/data**: Contains `anticenter_sector_gaia.csv` — Observational subset for replication.
+* **/docs**: Technical preprints and Nodal Vacuum Tension (NVT) model.
 
-### 🛡️ Statistical Validation: The Scramble Test
-To neutralize the **Look-Elsewhere Effect (LEE)**, we performed a Coordinate Randomization Test:
-1.  **Procedure:** Shuffled stellar X, Y, Z positions while preserving local density.
-2.  **Result:** Complete collapse of the 120° signal.
-3.  **Conclusion:** The geometry is **positional and structural**, not a statistical artifact.
+## 🛠️ Usage
+To replicate the 120° resonance findings:
+1. Clone the repository.
+2. Run `python scripts/scramble_test.py` using the provided CSV datasets.
+3. Compare the Observational Peak (120° ± 0.1°) against the Scrambled Control.
 
-### 📂 Repository Structure
-* `/data`: Raw Gaia DR3 Sector coordinates (Pending Zenodo DOI).
-* `/scripts`: Python implementation of the Scramble Test (Under documentation).
-* `/docs`: Scientific Report (PDF).
-
-## ⚖️ Physical Model: Nodal Vacuum Tension
-The NBSL is not merely descriptive; it is a **potential energy framework**. 
-We propose that the Vacuum Lattice creates "Nodal Wells" — regions of lower geometric 
-potential where baryonic matter (stars) is trapped during galaxy formation. 
-
-**Equation Hypothesis:** E_p(r) = \Phi_{Lattice}(k) + \nabla \cdot \Psi_{Vacuum}
-
-Where the position of a star is a function of the Lattice's nodal density (k). 
-This explains why 120° patterns persist despite gravitational drift: the Lattice 
-acts as a "geometric anchor" for the vacuum itself.
+## ⚖️ Physical Hypothesis (NVT Model)
+We propose that the vacuum geometry creates low-energy potential wells (Nodes). Matter is statistically more likely to cluster at these 120° intersections.
+**Equation:** V_Lattice(r) = Σ [Λ_geom / |r - r_n|^2]
 
 ---
-*© 2026 The Observer of the Matrix. All rights reserved. Seeking Peer-Review and Technical Collaboration.*
+*Independent Research | Santarém Sector Observation*
