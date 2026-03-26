@@ -1,7 +1,7 @@
 # NBSL-Global-Resonance-GaiaDR3
 > **Official V4.0 Global Analysis: Multi-Cluster Nodal Validation**
 
-**Version:** 4.0 (Global Expansion) | **Status:** `Active / Peer-Review` | **DOI:** [10.5281/zenodo.19226487](https://doi.org/10.5281/zenodo.19226487)
+**Version:** 4.0 (Global Expansion) | **Status:** `Active / Peer-Review` | **DOI:** [10.5281/zenodo.19228507](https://doi.org/10.5281/zenodo.19228507)
 
 ---
 
